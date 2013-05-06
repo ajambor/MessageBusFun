@@ -34,7 +34,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Channel.cs" />
+    <Compile Include="IMessageRouter.cs" />
+    <Compile Include="IProvider.cs" />
+    <Compile Include="ISubscriber.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageBus.cs" />
+    <Compile Include="MessageRouter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Router.cs" />
+    <Compile Include="RouterTable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
